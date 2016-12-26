@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{ A collection of usefull regular expressions for ukrainian matuiky}
   spec.homepage      = "https://github.com/mamantoha/matuiky_regexp"
-  spec.license       = "DBAD license"
+  spec.license       = "Nonstandard"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = "exe"
