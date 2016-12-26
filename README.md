@@ -48,7 +48,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 Bug reports and pull requests are welcome on GitHub at https://github.com/mamantoha/matuiky_regexp.
 
 
-## License
+## License and Author
 
-The gem is available as open source under the terms of the [DBAD license](https://github.com/philsturgeon/dbad/blob/master/LICENSE-en.md).
+Author: Anton Maminov (anton.maminov@gmail.com)
+
+Copyright: 2016 Anton Maminov (anton.maminov@gmail.com)
+
+The gem is available as open source under the terms of the [DBAD license](https://github.com/philsturgeon/dbad/blob/master/LICENSE.md).
 
