@@ -52,7 +52,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/mamant
 
 Author: Anton Maminov (anton.maminov@gmail.com)
 
-Copyright: 2016 Anton Maminov (anton.maminov@gmail.com)
+Copyright: 2016-2017 Anton Maminov (anton.maminov@gmail.com)
 
 The gem is available as open source under the terms of the [DBAD license](https://github.com/philsturgeon/dbad/blob/master/LICENSE.md).
 
