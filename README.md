@@ -1,5 +1,7 @@
 # MatuikyRegexp
 
+[![Build Status][travis_badge]][travis]
+
 A collection of usefull regular expressions for ukrainian matuiky
 
 Колекція корисних регулярних виразів для [матюків](https://uk.wikipedia.org/wiki/Ненормативна_лексика).
@@ -56,3 +58,5 @@ Copyright: 2016-2017 Anton Maminov (anton.maminov@gmail.com)
 
 The gem is available as open source under the terms of the [DBAD license](https://github.com/philsturgeon/dbad/blob/master/LICENSE.md).
 
+[travis_badge]: http://img.shields.io/travis/mamantoha/matuiky_regexp.svg?style=flat
+[travis]: https://travis-ci.org/mamantoha/matuiky_regexp
