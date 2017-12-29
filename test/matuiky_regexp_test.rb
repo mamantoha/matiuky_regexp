@@ -35,4 +35,8 @@ describe MatuikyRegexp do
     end
   end
 
+  it "ignore case sensitivity" do
+    "БлЯдь".must_match MatuikyRegexp::REGEXP
+  end
+
 end

@@ -17,5 +17,5 @@ module MatuikyRegexp
       |
       курв
     )+\S*)\s*
-  }x
+  }xi
 end
