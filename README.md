@@ -1,12 +1,12 @@
-# MatuikyRegexp
+# MatiukyRegexp
 
 [![Build Status][travis_badge]][travis]
 
-A collection of usefull regular expressions for ukrainian matuiky
+A collection of usefull regular expressions for ukrainian matiuky
 
 Колекція корисних регулярних виразів для [матюків](https://uk.wikipedia.org/wiki/Ненормативна_лексика).
 
-![Image](https://raw.github.com/mamantoha/matuiky_regexp/master/image.png)
+![Image](https://raw.github.com/mamantoha/matiuky_regexp/master/image.png)
 
 >  Москалі – це не нація, це – збірний образ, спосіб мислення. Москаль – це свідомість, а не походження...
 
@@ -16,7 +16,7 @@ A collection of usefull regular expressions for ukrainian matuiky
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'matuiky_regexp'
+gem 'matiuky_regexp'
 ```
 
 And then execute:
@@ -28,15 +28,15 @@ $ bundle
 Or install it yourself as:
 
 ```
-$ gem install matuiky_regexp
+$ gem install matiuky_regexp
 ```
 
 ## Usage
 
 ```
-require 'matuiky_regexp'
+require 'matiuky_regexp'
 
-'сукня'.match(MatuikyRegexp::REGEXP) #  => nil
+'сукня'.match(MatiukyRegexp::REGEXP) #  => nil
 ```
 
 ## Development
@@ -47,7 +47,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/mamantoha/matuiky_regexp.
+Bug reports and pull requests are welcome on GitHub at https://github.com/mamantoha/matiuky_regexp.
 
 
 ## License and Author
@@ -58,5 +58,5 @@ Copyright: 2016-2018 Anton Maminov (anton.maminov@gmail.com)
 
 The gem is available as open source under the terms of the [DBAD license](https://github.com/philsturgeon/dbad/blob/master/LICENSE.md).
 
-[travis_badge]: http://img.shields.io/travis/mamantoha/matuiky_regexp.svg?style=flat
-[travis]: https://travis-ci.org/mamantoha/matuiky_regexp
+[travis_badge]: http://img.shields.io/travis/mamantoha/matiuky_regexp.svg?style=flat
+[travis]: https://travis-ci.org/mamantoha/matiuky_regexp

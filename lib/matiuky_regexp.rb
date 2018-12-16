@@ -1,6 +1,6 @@
-require "matuiky_regexp/version"
+require "matiuky_regexp/version"
 
-module MatuikyRegexp
+module MatiukyRegexp
   REGEXP = %r{
     \s*(\S*(
       (?<!ра|нама|вима|роздму|підштов|дома|прочу)ху[йяюєї]

@@ -1,16 +1,16 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'matuiky_regexp/version'
+require 'matiuky_regexp/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "matuiky_regexp"
-  spec.version       = MatuikyRegexp::VERSION
+  spec.name          = "matiuky_regexp"
+  spec.version       = MatiukyRegexp::VERSION
   spec.authors       = ["Anton Maminov"]
   spec.email         = ["anton.linux@gmail.com"]
 
-  spec.summary       = %q{ A collection of usefull regular expressions for ukrainian matuiky}
-  spec.homepage      = "https://github.com/mamantoha/matuiky_regexp"
+  spec.summary       = %q{ A collection of usefull regular expressions for ukrainian matiuky}
+  spec.homepage      = "https://github.com/mamantoha/matiuky_regexp"
   spec.license       = "Nonstandard"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
