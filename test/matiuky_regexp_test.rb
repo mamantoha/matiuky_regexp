@@ -24,15 +24,15 @@ describe MatiukyRegexp do
     бляха
   )
 
-  matiuky.each do |matuik|
-    it "should match matuik #{matuik}" do
-      matuik.must_match MatiukyRegexp::REGEXP
+  matiuky.each do |matiuk|
+    it "should match matiuk #{matiuk}" do
+      matiuk.must_match MatiukyRegexp::REGEXP
     end
   end
 
-  ne_matiuky.each do |matuik|
-    it "should not match matuik #{matuik}" do
-      matuik.wont_match MatiukyRegexp::REGEXP
+  ne_matiuky.each do |matiuk|
+    it "should not match matiuk #{matiuk}" do
+      matiuk.wont_match MatiukyRegexp::REGEXP
     end
   end
 
