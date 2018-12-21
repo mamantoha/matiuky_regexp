@@ -3,7 +3,7 @@ require "matiuky_regexp/version"
 module MatiukyRegexp
   REGEXP = %r{
     \s*(\S*(
-      (?<!ра|нама|ма|роздму|штов|прочу|ко|ню)ху[йяюєї]
+      (?<!ра|ма|роздму|штов|прочу|ко|ню)ху[йяюєї]
       |
       п[иі]зд
       |
