@@ -8,8 +8,7 @@ A collection of usefull regular expressions for ukrainian matiuky
 
 ![Image](https://raw.github.com/mamantoha/matiuky_regexp/master/image.png)
 
->  Москалі – це не нація, це – збірний образ, спосіб мислення. Москаль – це свідомість, а не походження...
-
+> Москалі – це не нація, це – збірний образ, спосіб мислення. Москаль – це свідомість, а не походження...
 
 ## Installation
 
@@ -21,19 +20,19 @@ gem 'matiuky_regexp'
 
 And then execute:
 
-```
-$ bundle
+```console
+bundle
 ```
 
 Or install it yourself as:
 
-```
-$ gem install matiuky_regexp
+```console
+gem install matiuky_regexp
 ```
 
 ## Usage
 
-```
+```ruby
 require 'matiuky_regexp'
 
 'сукня'.match(MatiukyRegexp::REGEXP) #  => nil
@@ -49,12 +48,11 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/mamantoha/matiuky_regexp.
 
-
 ## License and Author
 
 Author: Anton Maminov (anton.maminov@gmail.com)
 
-Copyright: 2016-2018 Anton Maminov (anton.maminov@gmail.com)
+Copyright: 2016-2019 Anton Maminov (anton.maminov@gmail.com)
 
 The gem is available as open source under the terms of the [DBAD license](https://github.com/philsturgeon/dbad/blob/master/LICENSE.md).
 
