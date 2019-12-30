@@ -1,7 +1,9 @@
-require "matiuky_regexp/version"
+# frozen_string_literal: true
+
+require 'matiuky_regexp/version'
 
 module MatiukyRegexp
-  REGEXP = %r{
+  REGEXP = /
     \s*(\S*(
       (?<!ра|ма|роздму|слу|штов|прочу|ко|ню)ху[йяюєї]
       |
@@ -17,5 +19,5 @@ module MatiukyRegexp
       |
       курв
     )+\S*)\s*
-  }xi
+  /xi.freeze
 end

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'test_helper'
 
 class MatiukyRegexpTest < Minitest::Test
@@ -7,38 +9,37 @@ class MatiukyRegexpTest < Minitest::Test
 end
 
 describe MatiukyRegexp do
-  matiuky = %w{
+  matiuky = %w[
     блять блядь бля блядство
     ахуєнний похуй хуїта нахуй хуйло
     курва сука
     піздєц пиздець пиздити
     йобаний
     їбуче єбаноєайті їбанеайті заїбуня єбать уїбанське заїбали
-  }
-  ne_matiuky = %w(
+  ]
+  ne_matiuky = %w[
     сукня сукупний засукати
     люблять роблять дубляж корабля розслаблятися губляться шабля
     рубля знадобляться гребля граблями ансамбль бомблять бляшаний
     сверблять
     вимахується роздмухують підштовхують відмахуються домахується намахують
     прочухує закохує винюхує послухуючи
-    бляха бляхи
-  )
+    бляха бляхи бляшанка
+  ]
 
   matiuky.each do |matiuk|
     it "should match matiuk #{matiuk}" do
-      matiuk.must_match MatiukyRegexp::REGEXP
+      _(matiuk).must_match MatiukyRegexp::REGEXP
     end
   end
 
   ne_matiuky.each do |matiuk|
     it "should not match matiuk #{matiuk}" do
-      matiuk.wont_match MatiukyRegexp::REGEXP
+      _(matiuk).wont_match MatiukyRegexp::REGEXP
     end
   end
 
-  it "ignore case sensitivity" do
-    "БлЯдь".must_match MatiukyRegexp::REGEXP
+  it 'ignore case sensitivity' do
+    _('БлЯдь').must_match MatiukyRegexp::REGEXP
   end
-
 end
