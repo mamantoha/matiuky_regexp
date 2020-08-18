@@ -55,7 +55,7 @@ Author: Anton Maminov (anton.maminov@gmail.com)
 
 Copyright: 2016-2020 Anton Maminov (anton.maminov@gmail.com)
 
-The gem is available as open source under the terms of the [DBAD license](https://github.com/philsturgeon/dbad/blob/master/LICENSE.md).
+This library is distributed under the MIT license. Please see the LICENSE file.
 
 [travis_badge]: http://img.shields.io/travis/mamantoha/matiuky_regexp.svg?style=flat
 [travis]: https://travis-ci.org/mamantoha/matiuky_regexp
