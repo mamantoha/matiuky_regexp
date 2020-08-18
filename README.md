@@ -1,6 +1,7 @@
 # MatiukyRegexp
 
 [![Build Status][travis_badge]][travis]
+[![Gem Version][rubygems_badge]][rubygems]
 
 A collection of usefull regular expressions for ukrainian matiuky
 
@@ -58,3 +59,5 @@ The gem is available as open source under the terms of the [DBAD license](https:
 
 [travis_badge]: http://img.shields.io/travis/mamantoha/matiuky_regexp.svg?style=flat
 [travis]: https://travis-ci.org/mamantoha/matiuky_regexp
+[rubygems_badge]: http://img.shields.io/gem/v/matiuky_regexp.svg?style=flat
+[rubygems]: http://rubygems.org/gems/matiuky_regexp
