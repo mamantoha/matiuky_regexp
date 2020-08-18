@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = ' A collection of usefull regular expressions for ukrainian matiuky'
   spec.homepage      = 'https://github.com/mamantoha/matiuky_regexp'
-  spec.license       = ['MIT']
+  spec.licenses      = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.bindir        = 'exe'
